@@ -3,16 +3,14 @@ Cette api permet de récupérer les entreprises ayant effectué un acte d'augmen
 
 Elle dispose pour le moment d'une seule route vous permettant d'obtenir ces entreprises.
 
-Url de l'api: http://176.58.119.37:3000
-
 Routes: 
 
-# GET /getEntreprises/nbJoursMaxdeLacte
+# GET http://ip:port/getEntreprises/nbJoursMaxdeLacte
 + Response 200 (text/plain)
 
 Exemple d'appel pour recevoir la liste des entreprises ayant déposé leur acte d'augmentation de capital il y a moins de 30 jours:
 
-```http://176.58.119.37:3000/getEntreprises/30```
+```http://ip:port/getEntreprises/30```
 
 Réponse: 
 Une string contenant un tableau d'objets sous cette forme:
